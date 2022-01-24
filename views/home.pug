@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+ script(src='/static/index.js')
+
+block style
+ style
+   include ../static/style.css
+
+block content
+  section#introsection
+   div Welcome to Bhavya Dance Academy
+   div.small Eat Sleep Dance Repeat
+
+  section#missionsection
+   h2 Our Mission
+
+   div.card
+    h3 Dance Perfection.
+    div.card-box
+     div.card-img
+      img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjiBYnxym9nSpBbMiv5Gm1osBe3QfxXRWKvw&usqp=CAU")
+     div.card-content
+      p This is the best dance academy.
+
+
+   div.card
+    h3 To make the world Dance.
+    div.card-box
+     div.card-img
+      img(src="https://i.pinimg.com/originals/f1/28/b4/f128b4769b6f2c2034a261aad0fad5cb.jpg")
+     div.card-content
+      p This is the best dance academy.
+
+   div.card
+    h3 To make you expert in Dance.
+    div.card-box
+     div.card-img
+      img(src="https://pilatestopdance.files.wordpress.com/2013/03/what-do-you-know-about-hip-hop-7.jpg")
+     div.card-content
+      p This is the best dance academy. 
+  
+  section#sponsorsection
+   h2 Our Sponsors
+   div#sponsors
+    img(src="https://cdn.freebiesupply.com/logos/thumbs/2x/microsoft-centered-logo.png", alt="Sponsor image",class="spimg")
+    img(src="https://img.pngio.com/hp-logo-png-transparent-background-hp-background-png-895_516.png", alt="Sponsor Image",class="spimg")
